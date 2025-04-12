@@ -2,7 +2,6 @@ import speech_recognition as sr
 import webbrowser
 import pyttsx3
 import musiclibrary
-import requests
 recognizer = sr.Recognizer()
 engine = pyttsx3.init()
 
@@ -10,7 +9,7 @@ def speak(text):
     # Converts text to speech.
     engine.say(text)
     engine.runAndWait()
-    # newsapi=0f6633b54505466bbc12db256f8616bf
+    
 def processCommand(c):
     if "open google" in c.lower():
         webbrowser.open("https://google.com")
