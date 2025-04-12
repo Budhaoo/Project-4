@@ -7,7 +7,7 @@ Open popular websites like Google, YouTube, Facebook, and LinkedIn
 
 Play music from a custom library using voice commands
 
-🧠 Key Features:
+Key Features:
 Speech Recognition: Listens for commands using the speech_recognition library and Google’s speech-to-text API.
 
 Text-to-Speech: Gives spoken feedback using pyttsx3.
@@ -18,7 +18,7 @@ Music Playback: Plays requested songs using a custom musiclibrary (a Python dict
 
 Wake Word Activation: Only starts listening for commands after detecting the keyword “python”.
 
-🛠️ How it Works:
+How it Works:
 Initialization: Speaks "Initializing..." on startup.
 
 Listening Loop: Waits for the user to say "python" as the wake word.
